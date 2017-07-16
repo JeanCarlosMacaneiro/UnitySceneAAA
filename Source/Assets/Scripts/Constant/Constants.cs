@@ -1,8 +1,13 @@
-﻿public static class Constants
+﻿
+
+public static class Constants
 {
+    
     public enum TagObjectName
     {
-        ApplicationController
+        ApplicationController,
+        Player,
+        CanvasController
     }
 
     public enum AnimatorVarName
@@ -14,6 +19,19 @@
     public enum ScenesName
     {
 
+    }
+
+    public enum Actions
+    {
+        EnbleGameObject,
+        DisableGameObject,
+        PlayParticles,
+        StopParticles,
+        StartAnimationBool,
+        StopAnimationBool,
+        StartAnimationTrigger,
+        //CallMethod,
+        DisableComponetBoxCollider,
     }
 }
 
